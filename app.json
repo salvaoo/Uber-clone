@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "dondesesale-native",
-    "slug": "dondesesale-native",
+    "name": "Uber-clone",
+    "slug": "Uber-clone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ox-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ox-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ox-adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
