@@ -6,6 +6,8 @@ import { Icon } from 'react-native-elements'
 import { useNavigation } from '@react-navigation/native'
 import { useSelector } from 'react-redux'
 import { selectTravelTimeInformation } from '../slices/navSlice'
+import "intl"
+import 'intl/locale-data/jsonp/en'
 
 const data = [
    {
@@ -70,7 +72,7 @@ const RideOptionsCard = () => {
                   </MotiView>
                   <MotiText style={tw`text-xl`}>
 
-                     {new Intl.NumberFormat('en-gb', {
+                     {new Intl.NumberFormat('en-GB', {
                         style: "currency",
                         currency: "GBP",
 
